@@ -1,0 +1,27 @@
+package Star_Pattern_Coding_Problem;
+
+public class Combination_p3_and_p4 {
+    public static void main(String[] args) {
+        // Pattern 1
+        for(int i = 1; i <= 4; ++i) {
+            for (int j = 4; j >= i; --j) {
+                System.out.print(" ");
+            }
+            for (int k = 1; k <= i; ++k) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+        // Pattern 2
+        for(int i = 1; i <= 4; ++i){
+            for(int j = 1; j <=i ; ++j){
+                System.out.print(" ");
+            }
+            for(int k = 4; k >=i; --k){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
