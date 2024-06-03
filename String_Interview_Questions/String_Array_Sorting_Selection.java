@@ -9,8 +9,8 @@ public class String_Array_Sorting_Selection {
         for(int i=0;i<n;++i){
             min=i;
             for(int j=i+1;j<n-1;++j){
-                if(arr[j].compareTo(arr[min])<0){
-                    min=j;
+                if(arr[j].compareTo(arr[min])<0) {
+                    min = j;
 
                 }
 

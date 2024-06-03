@@ -1,15 +1,15 @@
 package LinkedList_DSA;
 
 
-
-class  Node {
-    int data;
-    Node next;
-    Node(int data){
-        this.data=data;
-        this.next=null;
-    }
-}
+//
+//class  Node {
+//    int data;
+//    Node next;
+//    Node(int data){
+//        this.data=data;
+//        this.next=null;
+//    }
+//}
 public class LinkedList_All_Opeation {
 
     public static Node convert(int[] arr){
