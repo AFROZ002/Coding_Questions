@@ -86,8 +86,4 @@ public static void main(String[] args) {
     }
 
 }
-//        ll.insertatbegining(5);
-//        ll.removefromfront();
-//        ll.removefromback(45);
-//        ll.insertatend(10);
 
